@@ -5,12 +5,15 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Shauryawada — Cinematic Luxury Resorts',
-  description: 'A new era of immersive luxury hospitality. Explore Shauryawada resorts in 3D and book your escape.',
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=5',
-  themeColor: '#0a0a0c',
+  description:
+    'A new era of immersive luxury hospitality. Explore Shauryawada resorts in 3D and book your escape.',
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body>
